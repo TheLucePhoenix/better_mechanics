@@ -14,5 +14,10 @@
   "item.better_mechanics.titanium_hoe": "Titanium Hoe",
   "item.better_mechanics.titanium_shovel": "Titanium Shovel",
   "item.better_mechanics.titanium_axe": "Titanium Axe",
-  "item.better_mechanics.titanium_pickaxe": "Titanium Pickaxe"
+  "item.better_mechanics.titanium_pickaxe": "Titanium Pickaxe",
+  "item.better_mechanics.titanium_ingot": "Titanium Ingot",
+  "item.better_mechanics.sapphire_refined": "Refined Sapphire",
+  "item.better_mechanics.mithril_ingot": "Mithril Ingot",
+  "item.better_mechanics.steel_ingot": "Steel Ingot",
+  "item.better_mechanics.tungsten_ingot": "Tungsten Ingot"
 }
