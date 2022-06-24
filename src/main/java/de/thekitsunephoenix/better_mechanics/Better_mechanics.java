@@ -16,9 +16,5 @@ public class Better_mechanics implements ModInitializer {
     public void onInitialize() {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
-
-
-
-
     }
 }

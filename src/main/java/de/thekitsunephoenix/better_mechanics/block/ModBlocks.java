@@ -26,10 +26,6 @@ public class ModBlocks {
 
    public static final Block EXAMPLE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
 
-
-
-
-
     public static Block registerBlock(String name, Block block, ItemGroup group,String tooltipKey){
         registerBlockItem(name, block, group, tooltipKey);
         return Registry.register(Registry.BLOCK, new Identifier(Better_mechanics.MOD_ID,name), block);

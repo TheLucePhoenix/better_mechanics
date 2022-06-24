@@ -57,13 +57,11 @@ public class ModItems {
     public static final Item SAPPHIRE_REFINED = registerItem("sapphire_refined"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
 
-
-
-
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(Better_mechanics.MOD_ID, name), item);
     }
     public static void registerModItems(){
+        Better_mechanics.LOGGER.info("Registering ModItems for " + Better_mechanics.MOD_ID);
     }
 
 }
