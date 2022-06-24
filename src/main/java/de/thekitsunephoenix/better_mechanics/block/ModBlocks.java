@@ -2,6 +2,8 @@ package de.thekitsunephoenix.better_mechanics.block;
 
 
 import de.thekitsunephoenix.better_mechanics.Better_mechanics;
+import de.thekitsunephoenix.better_mechanics.block.custom.SlowingBlock;
+import de.thekitsunephoenix.better_mechanics.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -21,12 +23,15 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-
 public class ModBlocks {
 
    public static final Block EXAMPLE_BLOCK = registerBlock("example_block",
            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
-           ItemGroup.MISC, "YEEEEEEEEEETTTTTTTTT");
+           ModItemGroup.BetterMechanics, "YEEEEEEEEEETTTTTTTTT");
+
+    public static final Block SLOWING_BLOCK = registerBlock("slowing_block",
+            new SlowingBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
+            ModItemGroup.BetterMechanics);
 
     public static Block registerBlock(String name, Block block, ItemGroup group,String tooltipKey){
         registerBlockItem(name, block, group, tooltipKey);
