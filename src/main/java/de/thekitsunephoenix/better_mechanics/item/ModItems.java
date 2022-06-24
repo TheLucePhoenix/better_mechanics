@@ -12,26 +12,52 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.COPPER, 0,0,new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ModPickaxeItem(ModToolMaterials.COPPER, 0,0
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item COPPER_AXE = registerItem("copper_axe",
-            new ModAxeItem(ModToolMaterials.COPPER, 4,-1f,new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ModAxeItem(ModToolMaterials.COPPER, 4,-1f
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item COPPER_SHOVEL = registerItem("copper_shovel",
-            new ShovelItem(ModToolMaterials.COPPER, 1,-1.25f,new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ShovelItem(ModToolMaterials.COPPER, 1,-1.25f
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item COPPER_HOE = registerItem("copper_hoe",
-            new ModHoeItem(ModToolMaterials.COPPER, 1,-1.5f,new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ModHoeItem(ModToolMaterials.COPPER, 1,-1.5f
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item COPPER_SWORD = registerItem("copper_sword",
-            new SwordItem(ModToolMaterials.COPPER, 1,-2f,new FabricItemSettings().group(ItemGroup.COMBAT)));
+            new SwordItem(ModToolMaterials.COPPER, 1,-2f
+                    , new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     public static final Item TITANIUM_PICKAXE = registerItem("titanium_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.TITANIUM, 0,0,new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ModPickaxeItem(ModToolMaterials.TITANIUM, 0,0
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item TITANIUM_AXE = registerItem("titanium_axe",
-            new ModAxeItem(ModToolMaterials.TITANIUM, 4,-1f,new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ModAxeItem(ModToolMaterials.TITANIUM, 4,-1f
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item TITANIUM_SHOVEL = registerItem("titanium_shovel",
-            new ShovelItem(ModToolMaterials.TITANIUM, 1,-1.25f,new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ShovelItem(ModToolMaterials.TITANIUM, 1,-1.25f
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item TITANIUM_HOE = registerItem("titanium_hoe",
-            new ModHoeItem(ModToolMaterials.TITANIUM, 1,-1.5f,new FabricItemSettings().group(ItemGroup.TOOLS)));
+            new ModHoeItem(ModToolMaterials.TITANIUM, 1,-1.5f
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item TITANIUM_SWORD = registerItem("titanium_sword",
-            new SwordItem(ModToolMaterials.TITANIUM, 1,-2f,new FabricItemSettings().group(ItemGroup.COMBAT)));
+            new SwordItem(ModToolMaterials.TITANIUM, 1,-2f
+                    , new FabricItemSettings().group(ItemGroup.COMBAT)));
+
+    public static final Item MITHRIL_PICKAXE = registerItem("mithril_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.TITANIUM, 0,0
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item MITHRIL_AXE = registerItem("mithril_axe",
+            new ModAxeItem(ModToolMaterials.TITANIUM, 4,-1f
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item MITHRIL_SHOVEL = registerItem("mithril_shovel",
+            new ShovelItem(ModToolMaterials.TITANIUM, 1,-1.25f
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item MITHRIL_HOE = registerItem("mithril_hoe",
+            new ModHoeItem(ModToolMaterials.TITANIUM, 1,-1.5f
+                    , new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item MITHRIL_SWORD = registerItem("mithril_sword",
+            new SwordItem(ModToolMaterials.TITANIUM, 1,-2f
+                    , new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     public static final Item PURPLE_MUSHROOM = registerItem( "purple_mushroom"
             , new Item(new FabricItemSettings().group(ItemGroup.DECORATIONS)));
