@@ -1,0 +1,13 @@
+package de.thekitsunephoenix.better_mechanics.client;
+
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+
+@Environment(EnvType.CLIENT)
+public class Better_mechanicsClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+    }
+}

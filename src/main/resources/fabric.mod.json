@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "better_mechanics",
+  "version": "${version}",
+  "name": "Better_mechanics",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/better_mechanics/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.thekitsunephoenix.better_mechanics.client.Better_mechanicsClient"
+    ],
+    "main": [
+      "de.thekitsunephoenix.better_mechanics.Better_mechanics"
+    ]
+  },
+  "mixins": [
+    "better_mechanics.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

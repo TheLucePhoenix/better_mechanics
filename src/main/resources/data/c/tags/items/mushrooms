@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "better_mechanics:blue_mushroom",
+    "better_mechanics:purple_mushroom",
+    "better_mechanics:yellow_mushroom",
+    "better_mechanics:orange_mushroom",
+    "better_mechanics.grey_mushroom",
+    "better_mechanics.green_mushroom",
+    "minecraft.red_mushroom",
+    "minecraft.brown_mushroom"
+  ]
+}
