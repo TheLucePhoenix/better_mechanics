@@ -24,7 +24,9 @@ import java.util.List;
 
 public class ModBlocks {
 
-   public static final Block EXAMPLE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+   public static final Block EXAMPLE_BLOCK = registerBlock("example_block",
+           new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
+           ItemGroup.MISC, "YEEEEEEEEEETTTTTTTTT");
 
     public static Block registerBlock(String name, Block block, ItemGroup group,String tooltipKey){
         registerBlockItem(name, block, group, tooltipKey);
