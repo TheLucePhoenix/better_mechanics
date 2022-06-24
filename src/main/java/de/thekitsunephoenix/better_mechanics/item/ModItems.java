@@ -46,10 +46,17 @@ public class ModItems {
     public static final Item GREY_MUSHROOM = registerItem( "grey_mushroom"
             , new Item(new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 
-    public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot"
-            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item TITANIUM_INGOT = registerItem("titanium_ingot"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot"
+            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item STEEL_INGOT = registerItem("steel_ingot"
+            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item MITHRIL_INGOT = registerItem("mithril_ingot"
+            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item SAPPHIRE_REFINED = registerItem("sapphire_refined"
+            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+
 
 
 
