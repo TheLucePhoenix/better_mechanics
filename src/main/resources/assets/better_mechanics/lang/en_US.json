@@ -19,5 +19,6 @@
   "item.better_mechanics.sapphire_refined": "Refined Sapphire",
   "item.better_mechanics.mithril_ingot": "Mithril Ingot",
   "item.better_mechanics.steel_ingot": "Steel Ingot",
-  "item.better_mechanics.tungsten_ingot": "Tungsten Ingot"
+  "item.better_mechanics.tungsten_ingot": "Tungsten Ingot",
+  "block.better_mechanics.example_block": "Example Blocky"
 }
