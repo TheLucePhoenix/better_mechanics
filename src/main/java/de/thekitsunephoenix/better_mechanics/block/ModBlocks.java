@@ -2,6 +2,8 @@ package de.thekitsunephoenix.better_mechanics.block;
 
 
 import de.thekitsunephoenix.better_mechanics.Better_mechanics;
+import de.thekitsunephoenix.better_mechanics.block.custom.ElectricFurnaceBlock;
+import de.thekitsunephoenix.better_mechanics.block.custom.SandBlock;
 import de.thekitsunephoenix.better_mechanics.block.custom.SlowingBlock;
 import de.thekitsunephoenix.better_mechanics.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -29,8 +31,16 @@ public class ModBlocks {
            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
            ModItemGroup.BetterMechanics, "YEEEEEEEEEETTTTTTTTT");
 
+    public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            new Block(FabricBlockSettings.of(Material.SOIL).strength(4.0f).requiresTool()),
+            ModItemGroup.BetterMechanics);
+
     public static final Block SLOWING_BLOCK = registerBlock("slowing_block",
             new SlowingBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
+            ModItemGroup.BetterMechanics);
+
+    public static final Block ELECTRIC_FURNACE = registerBlock("electric_furnace",
+            new ElectricFurnaceBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
             ModItemGroup.BetterMechanics);
 
     public static Block registerBlock(String name, Block block, ItemGroup group,String tooltipKey){

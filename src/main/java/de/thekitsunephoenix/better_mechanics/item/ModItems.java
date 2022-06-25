@@ -43,20 +43,20 @@ public class ModItems {
             new SwordItem(ModToolMaterials.TITANIUM, 1,-2f
                     , new FabricItemSettings().group(ItemGroup.COMBAT)));
 
-    public static final Item MITHRIL_PICKAXE = registerItem("mithril_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.TITANIUM, 0,0
+    public static final Item MYTHRIL_PICKAXE = registerItem("mithril_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.MYTHRIL, 0,0
                     , new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item MITHRIL_AXE = registerItem("mithril_axe",
-            new ModAxeItem(ModToolMaterials.TITANIUM, 4,-1f
+    public static final Item MYTHRIL_AXE = registerItem("mithril_axe",
+            new ModAxeItem(ModToolMaterials.MYTHRIL, 4,-1f
                     , new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item MITHRIL_SHOVEL = registerItem("mithril_shovel",
-            new ShovelItem(ModToolMaterials.TITANIUM, 1,-1.25f
+    public static final Item MYTHRIL_SHOVEL = registerItem("mithril_shovel",
+            new ShovelItem(ModToolMaterials.MYTHRIL, 1,-1.25f
                     , new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item MITHRIL_HOE = registerItem("mithril_hoe",
-            new ModHoeItem(ModToolMaterials.TITANIUM, 1,-1.5f
+    public static final Item MYTHRIL_HOE = registerItem("mithril_hoe",
+            new ModHoeItem(ModToolMaterials.MYTHRIL, 1,-1.5f
                     , new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item MITHRIL_SWORD = registerItem("mithril_sword",
-            new SwordItem(ModToolMaterials.TITANIUM, 1,-2f
+    public static final Item MYTHRIL_SWORD = registerItem("mithril_sword",
+            new SwordItem(ModToolMaterials.MYTHRIL, 1,-2f
                     , new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     public static final Item PURPLE_MUSHROOM = registerItem( "purple_mushroom"
@@ -78,7 +78,7 @@ public class ModItems {
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item STEEL_INGOT = registerItem("steel_ingot"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
-    public static final Item MITHRIL_INGOT = registerItem("mithril_ingot"
+    public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item SAPPHIRE_REFINED = registerItem("sapphire_refined"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));

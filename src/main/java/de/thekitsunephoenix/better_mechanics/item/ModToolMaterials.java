@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 
     public enum ModToolMaterials implements ToolMaterial {
         COPPER(0, 48, 1.8F, 0.0F, 11, () -> {
-            return Ingredient.fromTag(ModTags.Items.COPPER_INGOTS);
+            return Ingredient.fromTag(ModTags.Items.COPPER_INGOT);
         }),
         STEEL(2, 561, 5.0F, 2.0F, 12, () -> {
             return Ingredient.ofItems(new ItemConvertible[]{ModItems.STEEL_INGOT});
@@ -17,8 +17,8 @@ import java.util.function.Supplier;
         SAPPHIRE(2, 137, 14.0F, 5.0F, 22, () -> {
             return Ingredient.ofItems(new ItemConvertible[]{ModItems.SAPPHIRE_REFINED});
         }),
-        MITHRIL(3, 735, 9.75F, 2.8F, 18, () -> {
-            return Ingredient.ofItems(new ItemConvertible[]{ModItems.MITHRIL_INGOT});
+        MYTHRIL(3, 735, 9.75F, 2.8F, 18, () -> {
+            return Ingredient.ofItems(new ItemConvertible[]{ModItems.MYTHRIL_INGOT});
         }),
         TITANIUM(4, 2327, 8.5F, 3.5F, 17, () -> {
             return Ingredient.ofItems(new ItemConvertible[]{ModItems.TITANIUM_INGOT});
