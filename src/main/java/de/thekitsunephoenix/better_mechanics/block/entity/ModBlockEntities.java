@@ -1,4 +1,4 @@
-package de.thekitsunephoenix.better_mechanics.block.entitiy;
+package de.thekitsunephoenix.better_mechanics.block.entity;
 
 import de.thekitsunephoenix.better_mechanics.Better_mechanics;
 import de.thekitsunephoenix.better_mechanics.block.ModBlocks;

@@ -1,4 +1,4 @@
-package de.thekitsunephoenix.better_mechanics.block.entitiy;
+package de.thekitsunephoenix.better_mechanics.block.entity;
 
 import de.thekitsunephoenix.better_mechanics.item.ModItems;
 import de.thekitsunephoenix.better_mechanics.screen.ElectricFurnaceScreenHandler;
@@ -9,7 +9,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventories;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.screen.ScreenHandler;
@@ -30,7 +29,7 @@ public class ElectricFurnaceBlockEntity extends BlockEntity implements NamedScre
 
     @Override
     public DefaultedList<ItemStack> getItems() {
-        return null;
+        return inventory;
     }
 
     @Override
@@ -73,7 +72,7 @@ public class ElectricFurnaceBlockEntity extends BlockEntity implements NamedScre
     }
 
     private static boolean hasNotReachedStackLimit(ElectricFurnaceBlockEntity entity) {
-        return entity.getStack(3).getCount() < entity.getStack(3).getMaxCount();
+        return entity.getStack(1).getCount() < entity.getStack(1).getMaxCount();
     }
 
 }
