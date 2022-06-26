@@ -46,19 +46,19 @@ public class ModItems {
                     , new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     // Mythril Tools
-    public static final Item MYTHRIL_PICKAXE = registerItem("mithril_pickaxe",
+    public static final Item MYTHRIL_PICKAXE = registerItem("mythril_pickaxe",
             new ModPickaxeItem(ModToolMaterials.MYTHRIL, 0,0
                     , new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item MYTHRIL_AXE = registerItem("mithril_axe",
+    public static final Item MYTHRIL_AXE = registerItem("mythril_axe",
             new ModAxeItem(ModToolMaterials.MYTHRIL, 4,-1f
                     , new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item MYTHRIL_SHOVEL = registerItem("mithril_shovel",
+    public static final Item MYTHRIL_SHOVEL = registerItem("mythril_shovel",
             new ShovelItem(ModToolMaterials.MYTHRIL, 1,-1.25f
                     , new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item MYTHRIL_HOE = registerItem("mithril_hoe",
+    public static final Item MYTHRIL_HOE = registerItem("mythril_hoe",
             new ModHoeItem(ModToolMaterials.MYTHRIL, 1,-1.5f
                     , new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item MYTHRIL_SWORD = registerItem("mithril_sword",
+    public static final Item MYTHRIL_SWORD = registerItem("mythril_sword",
             new SwordItem(ModToolMaterials.MYTHRIL, 1,-2f
                     , new FabricItemSettings().group(ItemGroup.COMBAT)));
 
