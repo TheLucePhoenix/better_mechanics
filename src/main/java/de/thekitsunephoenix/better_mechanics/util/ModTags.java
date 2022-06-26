@@ -26,6 +26,7 @@ public class ModTags {
         public static final TagKey<Item> STEEL_INGOT = createCommonTag("steel_ingot");
         public static final TagKey<Item> MYTHRIL_INGOT = createCommonTag("mythril_ingot");
 
+
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(Better_mechanics.MOD_ID, name));
         }

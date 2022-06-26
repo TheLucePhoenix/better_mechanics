@@ -42,6 +42,14 @@ public class ModBlocks {
             new ElectricFurnaceBlock(FabricBlockSettings.of(Material.METAL).nonOpaque().strength(2.0f)),
             ModItemGroup.BetterMechanics);
 
+    public static final Block MECHANICAL_FRAME_BASIC = registerBlock("mechanical_frame_basic",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
+            ModItemGroup.BetterMechanics);
+
+    public static final Block MECHANICAL_FRAME_ENHANCED = registerBlock("mechanical_frame_enhanced",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
+            ModItemGroup.BetterMechanics);
+
     public static Block registerBlock(String name, Block block, ItemGroup group,String tooltipKey){
         registerBlockItem(name, block, group, tooltipKey);
         return Registry.register(Registry.BLOCK, new Identifier(Better_mechanics.MOD_ID,name), block);

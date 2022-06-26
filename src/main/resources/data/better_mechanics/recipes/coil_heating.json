@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "X#X",
+    " XX"
+  ],
+  "key": {
+    "#": {
+      "item": "better_mechanics:rod_iron"
+    },
+    "X": {
+      "tag": "c:copper_wires"
+    }
+  },
+  "result": {
+    "item": "better_mechanics:coil_heating"
+  }
+}

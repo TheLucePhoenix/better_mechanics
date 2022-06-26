@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "U+U",
+    "X#X"
+  ],
+  "key": {
+    "X": {
+      "item": "better_mechanics:plate_tin"
+    },
+    "#": {
+      "item": "better_mechanics:coil_heating"
+    },
+    "U": {
+      "tag": "c:copper_gears"
+    },
+    "+": {
+      "item": "better_mechanics:mechanical_frame_basic"
+    }
+  },
+  "result": {
+    "item": "better_mechanics:electric_furnace"
+  }
+}

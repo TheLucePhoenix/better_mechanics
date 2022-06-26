@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public  static  final ItemGroup BetterMechanics = FabricItemGroupBuilder.build(new Identifier(Better_mechanics.MOD_ID,
-                    "better_mechanics"), () -> new ItemStack(ModItems.GREY_MUSHROOM));
+                    "better_mechanics"), () -> new ItemStack(ModItems.GEAR_IRON));
 }

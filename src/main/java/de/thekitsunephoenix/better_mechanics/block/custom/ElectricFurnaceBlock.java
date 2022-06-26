@@ -78,15 +78,19 @@ public class ElectricFurnaceBlock extends BlockWithEntity implements BlockEntity
         return ActionResult.SUCCESS;
     }
 
+
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
         return new ElectricFurnaceBlockEntity(pos, state);
     }
-
-    @Nullable
+    /*
+    //@Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
         return checkType(type, ModBlockEntities.ELECTRIC_FURNACE, ElectricFurnaceBlockEntity::tick);
     }
+     */
+
+
 }

@@ -2,6 +2,7 @@ package de.thekitsunephoenix.better_mechanics;
 
 import de.thekitsunephoenix.better_mechanics.block.ModBlocks;
 import de.thekitsunephoenix.better_mechanics.item.ModItems;
+import de.thekitsunephoenix.better_mechanics.recipe.ModRecipes;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,5 +17,6 @@ public class Better_mechanics implements ModInitializer {
     public void onInitialize() {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModRecipes.registerRecipes();
     }
 }
